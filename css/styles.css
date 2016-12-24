@@ -1,4 +1,5 @@
 body {
-  margin: 10px 1200px;
-  border: #000 solid;
+  width: 1200px;
+  margin: 200px auto;
+  text-align: center;
 }
