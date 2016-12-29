@@ -1,38 +1,67 @@
+/*--------------------------------------*/
+/*---------------RESETS-----------------*/
+/*--------------------------------------*/
+* {margin: 0;padding: 0;}
+
+/*--------------------------------------*/
+/*---------------GLOBALS----------------*/
+/*--------------------------------------*/
+
+html {
+	font-family: 'Roboto', 'Open Sans', sans-serif;
+}
 body {
-  /*margin: 10px 1200px;*/
-  width: 1200px;
-  margin: 10px auto;
-  border: #000 solid;
+	line-height: 1.5;
+	color: #555;
+	background-color: #cdc9dd;
+}
+h1, h2,
+strong {
+	color: #333;
+}
+.container {
+	padding: 25px;
 }
 
 /*--------------------------------------*/
-/*----------------HEADER----------------*/
+/*------------HEADER/FOOTER-------------*/
 /*--------------------------------------*/
-header {
-    width: 100%;
-    text-align: center;
-}
-
-
-/*--------------------------------------*/
-/*----------------FOOTER----------------*/
-/*--------------------------------------*/
-footer {
-    width: 100%;
-    text-align: center;
+header, footer {
+	width: 100%;
+	text-align: center;
+	background-color: #222;
+	color: #fff; 
+	min-height: 100px;
 }
 
 /*--------------------------------------*/
 /*--------------NAVIGATION--------------*/
 /*--------------------------------------*/
-main {
-
+nav {
+	background-color: #ff2b53;
+	width: 20%;
+	text-align: center;
+	position: fixed;
+	top: 15%;
+	left: 5%;
+	color: #fff;
 }
-
+nav li {
+	list-style: none;
+}
+#profile-img {
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	width: 50%;
+	margin-top: 1em;
+}
 
 /*--------------------------------------*/
 /*-----------------MAIN-----------------*/
 /*--------------------------------------*/
 main {
-
+	width: 70%;
+	position: relative;
+	margin-left: auto;
 }
