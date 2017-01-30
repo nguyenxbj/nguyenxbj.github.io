@@ -8,5 +8,5 @@ Personal Success metrics:
 
 App ideas:
 
-1. '**How many days has it been?**' Input a date and find out how long it's been since that date (years, months, days, hours, minutes seconds). 
+1. '**How long has it been?**' Input a date and find out how long it's been since that date (years, months, days, hours, minutes seconds). 
 2. 
