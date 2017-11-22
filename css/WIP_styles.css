@@ -1,58 +1,67 @@
 /*---------------RESETS-----------------*/
-* {margin: 0;padding: 0;}
+* {
+    margin: 0;
+    padding: 0;
+}
 
 /*---------------GLOBALS----------------*/
 html {
-	font-family: 'Roboto', 'Open Sans', sans-serif;
-}
-body {
-	line-height: 1.5;
-	color: #555;
-	background-color: #cdc9dd;
-}
-h1, h2,
-strong {
-	color: #333;
-}
-p {
-	margin-bottom: 1em;
-}
-.container {
-	padding: 25px;
+    font-family: 'Roboto', 'Open Sans', sans-serif;
 }
 
-/*------------HEADER/FOOTER-------------*/
-header, footer {
-	width: 100%;
-	text-align: center;
-	background-color: #222;
-	color: #fff; 
-	min-height: 100px;
+body {
+    line-height: 1.5;
+    color: #555;
+    background-color: #cdc9dd;
+}
+
+h1, h2,
+strong {
+    color: #333;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+.container {
+    padding: 10px 25px;
 }
 
 /*--------------NAVIGATION--------------*/
 nav {
-	background-color: #ff2b53;
-	width: 20%;
-	text-align: center;
-	position: fixed;
-	left: 5%;
-	color: #fff;
+    width: 200px;
+    text-align: center;
+    position: fixed;
+    color: #000;
+    height: 100%;
 }
-nav li {
-	list-style: none;
-}
+
+    nav li {
+        list-style: none;
+    }
+
+    nav #github {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+
 #profile-img {
-	border-radius: 50%;
-	-webkit-border-radius: 50%;
-	-moz-border-radius: 50%;
-	width: 50%;
-	margin-top: 1em;
+    max-width: 100%;
+}
+
+/*------------HEADER/FOOTER-------------*/
+header, footer {
+    width: 100%;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+    min-height: 100px;
 }
 
 /*-----------------MAIN-----------------*/
 main {
-	width: 70%;
-	position: relative;
-	margin-left: auto;
+    position: relative;
+    margin-left: 200px;
 }
